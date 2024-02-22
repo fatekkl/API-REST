@@ -17,9 +17,6 @@ routes.forEach(route => {
 
 
 
-// respond with "hello world" when a GET request is made to the homepage
-
-
 app.listen(PORT , () => {
     console.log(`Server open in ${PORT}`)
 })
