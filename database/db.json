@@ -1,0 +1,16 @@
+[
+    {
+        "id": "cc926529-d6c4-4e7e-bf17-09884fcafcd4",
+        "nome": "Eduarda Fogaça",
+        "idade": "17",
+        "email": "Eduarda@example.com",
+        "celular": "11626532757"
+    },
+    {
+        "id": "d2df580e-4dae-461e-b933-e816662eab4e",
+        "nome": "Matheus Oliveira",
+        "idade": "18",
+        "email": "Eduarda@example.com",
+        "celular": "11987539647"
+    }
+]
