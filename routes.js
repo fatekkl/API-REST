@@ -50,7 +50,8 @@ const routes = [
         }
     },
     {
-        method: "PUT"
+        method: "PUT",
+        path: 
 
     }
 
