@@ -49,11 +49,8 @@ const routes = [
             res.status(200).json(JSON.stringify(clients))
         }
     },
-    {
-        method: "PUT",
-        path: 
 
-    }
+    
 
 ]
 
