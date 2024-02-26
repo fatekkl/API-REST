@@ -5,13 +5,13 @@ const clients = readDB()
 
 
 function readDB() {
-    const data = fs.readFileSync("./database/db.json", "utf-8")
+    const data = fs.readFileSync("./api/database/db.json", "utf-8")
 
     return JSON.parse(data)
 }
 
 function writeDB(client) {
-    fs.writeFileSync("./database/db.json", JSON.stringify(client , null , 4))
+    fs.writeFileSync("./api/database/db.json", JSON.stringify(client , null , 4))
 }
 
 
