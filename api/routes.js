@@ -1,4 +1,3 @@
-const crypto = require("crypto")
 const fs = require("fs")
 
 
@@ -12,7 +11,7 @@ function readDB() {
 }
 
 function writeDB(client) {
-    fs.writeFileSync("./database/db.json", JSON.stringify(client , null , 4))
+    fs.writeFileSync("database/db.json", JSON.stringify(client , null , 4))
 }
 
 
