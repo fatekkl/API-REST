@@ -1,12 +1,15 @@
-import { scryptSync, randomBytes} from "crypto"
+import { scryptSync , randomBytes} from "crypto"
 
+function generateSal() {
+    return randomBytes(16).toString("hex");
+}
 
 export default function salhash(senha) {
 
-    const sal = randomBytes(16).toString("hex");
+    const sal = generateSal()
 
-    const hash = scryptSync(senha , sal , 64).toString("hex");
+    const hash = scryptSync(senha, sal, 64).toString("hex");
 
-    return hash
+    return {hash};
 }
 

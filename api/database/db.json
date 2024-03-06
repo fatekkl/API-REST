@@ -1,8 +1,10 @@
 [
     {
-        "id": "fc6a19b8-f762-4214-b14a-7fac0bae667c",
-        "nome": "Duda",
-        "email": "duda.com",
-        "senha": "8af614853a1df2d6d022bc06703139c88ab8362412d28e93d626eedeed408b189c01ed0b8e8acaddd8e085c47d20ef32d09efba7907241e18561884ded3c7669"
+        "id": "e60b2d87-d99f-42cd-978c-ad29bb0c4a01",
+        "nome": "Thiago",
+        "senha": {
+            "hash": "3ed02ff61a6550f3570ea2057e00ba5c78637990de2b15ba487339f7e3905bd4eed6767ad0afd15afba098ccd9d15e9b22c91261b13dbd7ee71e4d32f85f823f",
+            "sal": "492bc2d19892c5b469193de8129524c6"
+        }
     }
 ]
