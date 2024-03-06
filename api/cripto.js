@@ -10,6 +10,6 @@ export default function salhash(senha) {
 
     const hash = scryptSync(senha, sal, 64).toString("hex");
 
-    return {hash};
+    return {hash , sal};
 }
 
