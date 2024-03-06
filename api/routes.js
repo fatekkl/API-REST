@@ -1,7 +1,10 @@
-const fs = require("fs")
+import fs from "fs"
 
+import salhash from "./cripto.js"
 
 const clients = readDB()
+
+console.log(salhash("senha"))
 
 
 function readDB() {
@@ -15,7 +18,7 @@ function writeDB(client) {
 }
 
 
-const routes = [
+export const routes = [
     {
         method: "POST",
         path: "/",
@@ -26,9 +29,8 @@ const routes = [
                     {
                         id: crypto.randomUUID(),
                         nome: req.body.nome,
-                        idade: req.body.idade,
                         email: req.body.email,
-                        celular: req.body.celular,
+                        senha: salhash(req.body.senha),
                     }
                     clients.push(newClient);
                     writeDB(clients);
@@ -99,9 +101,4 @@ const routes = [
         }
     }
 
-    
-
 ]
-
-
-module.exports = routes

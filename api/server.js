@@ -1,14 +1,18 @@
-const express = require('express')
-const app = express()
+import Express from "express"
 
-const routes = require("./routes.js")
+const app = Express()
+
+import { routes } from "./routes.js"
+
+
+
 
 const PORT = 3030
 
 
 app.set("port" , process.env.PORT)
 
-app.use(express.json());
+app.use(Express.json());
 
 
 routes.forEach(route => {
