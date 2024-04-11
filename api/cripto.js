@@ -12,4 +12,3 @@ export default function salhash(senha) {
 
     return {hash , sal};
 }
-
