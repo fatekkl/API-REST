@@ -32,7 +32,7 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
 ## Routes
 
 ### GET /
-    ```bash
+    ```
     RESPONSE:
     [
         {
