@@ -69,7 +69,35 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
     response: "Cliente adicionado a lista"
 
     
+### POST /login
 
+    request:
+    {
+        "body": {
+            "nome": "nome do usuario",
+            "senha": "senha do usuario"
+        }
+    }
+
+    response: "Cliente logado com sucesso!"
+
+
+
+### PUT /:id
+
+    request:  {
+        "nome": "coloque seu novo nome ou o mesmo se não quiser alterar isso",
+         "email": "coloque seu novo email ou o mesmo se não quiser alterar isso",
+        "senha": "coloque sua nova senha ou a mesma se não quiser alterar isso",
+    }
+
+
+    response: "Seus dados foram atualizados com sucesso!"
+
+
+### DELETE /:id 
+
+    response: "Cliente deletado!"
     
 
    
