@@ -22,3 +22,25 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
    npm install nodemon
    npm install fs
    npm install crypto
+
+
+3. Inicie a API:
+    ````bash
+    npm start
+
+
+## Routes
+
+### GET /
+    ````bash
+    [
+        {
+            "id": "client_id",
+            "nome": "client_name",
+            "email": "client_email",
+            "senha": "client_password",
+        },
+        {
+            ...
+        }
+    ]
