@@ -31,9 +31,9 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
 
 ## Routes
 
-### GET /
-    ```
-    RESPONSE:
+`### GET /`
+
+    ````bash
     [
         {
             "id": "client_id",
@@ -45,3 +45,8 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
             ...
         }
     ]
+    
+
+   
+    
+
