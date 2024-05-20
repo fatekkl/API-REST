@@ -31,7 +31,7 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
 
 ## Routes
 
-`### GET /`
+### GET /
 
     [
         {
@@ -44,6 +44,32 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
             ...
         }
     ]
+
+
+### GET /:id
+
+    {
+        "id": "client_id",
+        "nome": "client_name",
+         "email": "client_email",
+        "senha": "client_password",
+    }
+
+
+### POST /
+
+    request: 
+    {
+        "body": {
+            "nome": "nome que voce quiser",
+            "senha": "senha que voce quiser"
+        }
+    }
+
+    response: "Cliente adicionado a lista"
+
+    
+
     
 
    

@@ -7,5 +7,13 @@
             "hash": "4469c243cdda77334e498073cf4b6d5b3bbc79c6c76d50078f4b2bfdd0cb1786e4595e5b6ec5ea66ff1d51adcf58906e742f18cc26b6268b992a0573d9be0256",
             "sal": "fadfdb0f5b14711e1f32d70e08d19d7d"
         }
+    },
+    {
+        "id": "a7b238ab-a574-4100-8f51-cdcfd8ffe34c",
+        "nome": "teste",
+        "senha": {
+            "hash": "f0931e11ac825dd1284b6093f17d76c195c638c6f608e595359f2126df92464a3ba71232f2d159facb24c690db3048b314e774db133548b9be024c2de43c36be",
+            "sal": "8d8e23608a790ec60fce8a3f7c1c74f3"
+        }
     }
 ]
