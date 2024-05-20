@@ -33,7 +33,6 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
 
 `### GET /`
 
-    ````bash
     [
         {
             "id": "client_id",
