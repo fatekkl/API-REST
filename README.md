@@ -18,10 +18,7 @@ API desenvolvida utilizando Node.js (ES6) e Express, com o objetivo de estudar o
 
 2. Instale as libs necessárias:
    ````bash
-   npm install express
-   npm install nodemon
-   npm install fs
-   npm install crypto
+   npm install
 
 
 3. Inicie a API:
